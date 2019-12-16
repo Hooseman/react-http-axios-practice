@@ -1,4 +1,6 @@
 import React from 'react';
+// allows component to have route history
+// import {withRouter} from 'react-router-dom';
 
 import './Post.module.css';
 
@@ -11,4 +13,5 @@ const post = (props) => (
     </article>
 );
 
+// export default withRouter(post);
 export default post;
